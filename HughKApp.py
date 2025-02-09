@@ -28,7 +28,7 @@ model = "gpt-4-turbo"
 instructions_data = st.secrets["INSTRUCTIONS"]
 
 #  == Hardcoded ids to be used once the first code run is done and the assistant was created
-assis_id = "asst_pZOBXOqtGYnQwd8LWiak5iRn" 
+assis_id = "asst_XUxr2ptk8ci6VM4IGySo438g" 
 thread_id = "thread_lClMjq57Qa4Dt2bzptzTmhAq"
 
 if "start_chat" not in st.session_state:
